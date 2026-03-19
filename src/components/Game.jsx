@@ -68,7 +68,7 @@ function Game() {
   }
 
   function SpecialAttack(){
-      if(count != 3) return;
+      if(count > 3) return;
       const heroDmg = getRandomValue(8,25);
       const monsterDmg = getRandomValue(8,25);
 
